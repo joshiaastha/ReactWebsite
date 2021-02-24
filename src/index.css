@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Wallpaper {
+  text-align: center;
+  font-size: 35;
+  font-family: Verdana;
+  font-Weight: bold;
+  color: aqua;
+  background-color: black;
+}
+
+.row {
+  padding: 50px;
+}
+
+.col-4 {
+  transition: transform .5s ease;
+}
+
+.col-4:hover {
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width : 768px) {
+  .col-4{
+    width: 100%;
+  } 
+}
